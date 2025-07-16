@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+	margin: 0px;
+	padding:0px ;
+	box-sizing: border-box;
+	scroll scroll-behavior: smooth;
+	font-family: 'robot',sens-serif;
+}
+
+h1{
+	font-size: 1.5 rem;
+}
+h3{
+	font-size: .9rem;
+	text-transform: upper;
+	color: #aaa;
+	margin-left: 20px;
+}
+i{
+	font-size: 1.5 rem;
+	color: #fff;
+}
+p,a{
+	font-size: .9rem;
+}
+hr{
+	border: 1px solid ;
+	margin: 12px;
+}
+.header{
+	height: 50px;
+	 display: flex;
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+}
+.logo-img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+ img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	display: flex;
+}
+.logo-t1{
+	width: 100px;
+	letter-spacing: 1.5px;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.logo-container{
+	
+	align-items: center;
+	flex-direction: row;
+}
